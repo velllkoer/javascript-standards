@@ -1,2 +1,2 @@
-const reversedString = str => str.split('').reverse().join('');
-const arrayContains = (arr, element) => arr.includes(element);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
