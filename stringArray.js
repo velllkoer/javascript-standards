@@ -1,3 +1,3 @@
-console.log(1 +  -"1" + "2");
-const flattenedArray = arr => [].concat(...arr);
-const fullName = name || 'buddy';
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const channel = getChannel(computedAppVersion);
