@@ -1,3 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const removeDuplicates = (arr) => [...new Set(arr)];
+const result = await makeHttpRequest(url);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
