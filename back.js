@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
