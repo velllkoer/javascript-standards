@@ -1,2 +1,3 @@
-var arr1 = "john".split('');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const allResults = await Promise.all(items.map(async (item) => {}));
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const merge = (a, b) => a.concat(b);
