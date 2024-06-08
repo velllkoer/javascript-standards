@@ -1,3 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-console.log(false === '0');
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+console.log(false == '0');
+const maxNumber = arr => Math.max(...arr);
