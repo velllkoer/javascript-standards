@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(false == '0');
+const results = await Promise.all(resultingPromises);
+var arr3 = "jones".split('');
