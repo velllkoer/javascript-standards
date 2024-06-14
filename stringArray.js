@@ -1,3 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-function myAPITS(someString: string, someNum: number) { ... };
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const reversedString = str => str.split('').reverse().join('');
+const merge = (a, b) => a.concat(b);
