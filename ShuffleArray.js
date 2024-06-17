@@ -1,3 +1,2 @@
-console.log(false == '0');
-const results = await Promise.all(resultingPromises);
-var arr3 = "jones".split('');
+console.log("1 && 2 = "+(1 && 2));
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
