@@ -1,3 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const reversedString = str => str.split('').reverse().join('');
-const merge = (a, b) => a.concat(b);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+var arr3 = "jones".split('');
