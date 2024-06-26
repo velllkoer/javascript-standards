@@ -1,3 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-console.log(1 +  +"2" + "2");
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+[foo, bar] = [bar, foo];
