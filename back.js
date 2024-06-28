@@ -1,3 +1,2 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const maxNumber = arr => Math.max(...arr);
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+var arr2 = arr1.reverse();
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
