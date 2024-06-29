@@ -1,3 +1,2 @@
-console.log(false == '0');
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-var arr3 = "jones".split('');
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
