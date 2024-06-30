@@ -1,3 +1,3 @@
-const fullName = name || 'buddy';
-const merge = Object.assign({}, obj1, obj2);
-const allResults = await Promise.all(items.map(async (item) => {}));
+const result = await makeHttpRequest(url);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
