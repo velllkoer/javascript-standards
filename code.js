@@ -1,3 +1,2 @@
-const result = await makeHttpRequest(url);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
