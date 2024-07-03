@@ -1,2 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const isEmptyArray = arr => !arr.length;
+console.log(typeof typeof 1);
 [foo, bar] = [bar, foo];
