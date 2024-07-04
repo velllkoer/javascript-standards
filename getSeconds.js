@@ -1,2 +1,1 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const currentDate = () => new Date().toLocaleDateString('en-US');
