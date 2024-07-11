@@ -1,3 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-var c = new Counter(); c.add(); c.add(); c.add();
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const randomBoolean = () => Math.random() >= 0.5;
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
