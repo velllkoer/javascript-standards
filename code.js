@@ -1,2 +1,2 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const randomBoolean = () => Math.random() >= 0.5;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
