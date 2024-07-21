@@ -1,3 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const randomBoolean = () => Math.random() >= 0.5;
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
