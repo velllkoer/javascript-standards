@@ -1,2 +1,2 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const flattenedArray = arr => [].concat(...arr);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const randomBoolean = () => Math.random() >= 0.5;
