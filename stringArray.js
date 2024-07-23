@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-console.log("0 && 1 = "+(0 && 1));
+const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log( "A" - "B" + "2");
