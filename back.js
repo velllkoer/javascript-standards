@@ -1,1 +1,1 @@
-const toggleBool = () => (bool = !bool);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
