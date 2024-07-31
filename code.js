@@ -1,3 +1,3 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const merge = (a, b) => a.concat(b);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const updated = numbers.filter(element => element > 6);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
