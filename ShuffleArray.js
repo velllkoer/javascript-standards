@@ -1,3 +1,2 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const stringReverse = str => str.split("").reverse().join("");
-const updated = numbers.filter(element => element > 6);
+const uniqueArray = arr => [...new Set(arr)];
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
