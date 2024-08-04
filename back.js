@@ -1,1 +1,1 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+function myAPITS(someString: string, someNum: number) { ... };
